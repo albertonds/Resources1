@@ -1,6 +1,6 @@
 package com.example.natci.datospersonales1;
 
-import android.os.Build;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity  {
         switchHijos = findViewById(R.id.switchHijos);
         hijos = getResources().getString(R.string.si);
 
-        String[] civil = new String[] {getResources().getString(R.string.Otro),getResources().getString(R.string.Casado),getResources().getString(R.string.Soltero),getResources().getString(R.string.Viudo),getResources().getString(R.string.Casado)};
+        String[] civil = new String[] {getResources().getString(R.string.Otro),getResources().getString(R.string.Casado),getResources().getString(R.string.Soltero),getResources().getString(R.string.Viudo)};
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, civil);
         spCivil.setAdapter(adaptador);
 
