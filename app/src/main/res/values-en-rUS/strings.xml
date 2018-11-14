@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Data</string>
+    <string name="txtNombre">Name:</string>
+    <string name="lblNombre">Write your name</string>
+    <string name="txtApellido">Surname:</string>
+    <string name="lblApellido">Write your surname</string>
+    <string name="txtEdad">Age:</string>
+    <string name="txtCivil">Civil status:</string>
+    <string name="txtGen">Genre</string>
+    <string name="radioM">Female</string>
+    <string name="radioH">Male</string>
+    <string name="txtHijos">Children</string>
+    <string name="buttonGenerar">Generate</string>
+    <string name="si">with children</string>
+    <string name="no">without children</string>
+    <string name="nombre">missed name</string>
+    <string name="apellido">missed surname</string>
+    <string name="edad">missed age</string>
+    <string name="mayor">Overage</string>
+    <string name="menor">Underage</string>
+    <string name="sino">Yes/No</string>
+    <string name="Viudo">Widower</string>
+    <string name="Casado">Married</string>
+    <string name="Soltero">Single</string>
+    <string name="Otro">Other</string>
+    
+</resources>

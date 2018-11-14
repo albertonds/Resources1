@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="txtNombre">Nombre:</string>
+    <string name="lblNombre">Escriba su nombre</string>
+    <string name="txtApellido">Apellidos:</string>
+    <string name="lblApellido">Escriba sus apellidos</string>
+    <string name="txtEdad">Edad:</string>
+    <string name="lblEdad"></string>
+    <string name="txtCivil">Estado civil:</string>
+    <string name="Casado">Casado/a</string>
+    <string name="Soltero">Soltero/a</string>
+    <string name="Viudo">Viudo/a</string>
+    <string name="Otro">Otro</string>
+    <string name="txtGen">Sexo</string>
+    <string name="radioM">Mujer</string>
+    <string name="radioH">Hombre</string>
+    <string name="txtHijos">Hijos</string>
+    <string name="buttonGenerar">Generar</string>
+    <string name="si">tiene Hijos</string>
+    <string name="no">no tiene Hijos</string>
+    <string name="nombre">Falta Nombre</string>
+    <string name="apellido">Falta apellido</string>
+    <string name="edad">Falta edad</string>
+    <string name="mayor">Es mayor de edad</string>
+    <string name="menor">Es menor de edad</string>
+    <string name="sino">Si/No</string>
+
+
+</resources>
+

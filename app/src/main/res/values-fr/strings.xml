@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Informations personnelles</string>
+    <string name="txtNombre">Nom</string>
+    <string name="lblNombre">" Écris ton nom"</string>
+    <string name="txtApellido">Nom de famille</string>
+    <string name="lblApellido">Entrez votre nom de famille</string>
+    <string name="txtEdad">Âge</string>
+    <string name="txtCivil">État civil</string>
+    <string name="txtGen">Le sexe</string>
+    <string name="radioM">Femme</string>
+    <string name="radioH">Homme</string>
+    <string name="txtHijos">Enfants</string>
+    <string name="buttonGenerar">Générer</string>
+    <string name="si">Il a des enfants</string>
+    <string name="no">il n\'a pas d\'enfants</string>
+    <string name="nombre">" nom manquant"</string>
+    <string name="apellido">manque le nom de famille</string>
+    <string name="edad">âge manquant</string>
+    <string name="mayor">" est majeur"</string>
+    <string name="menor">est mineur</string>
+    <string name="sino">Oui/Non</string>
+    <string name="Viudo">Veuf</string>
+    <string name="Casado">Marié</string>
+    <string name="Soltero">Celibataire</string>
+    <string name="Otro">Autre</string>
+</resources>
