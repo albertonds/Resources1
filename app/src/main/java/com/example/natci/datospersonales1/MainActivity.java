@@ -1,6 +1,7 @@
 package com.example.natci.datospersonales1;
 
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -33,6 +34,14 @@ public class MainActivity extends AppCompatActivity  {
     String hijos;
     String edad;
     String[] civil;
+    TextView txtNombre;
+    TextView txtApellido;
+    TextView txtEdad;
+    TextView txtCivil;
+    TextView txtGen;
+
+
+
 
 
 
@@ -55,6 +64,23 @@ public class MainActivity extends AppCompatActivity  {
         radioM = findViewById(R.id.radioM);
         switchHijos = findViewById(R.id.switchHijos);
         hijos = getResources().getString(R.string.si);
+        txtNombre = (TextView)findViewById(R.id.txtNombre);
+        txtApellido = (TextView)findViewById(R.id.txtApellido);
+        txtEdad = (TextView)findViewById(R.id.txtEdad);
+        txtCivil = (TextView)findViewById(R.id.txtCivil);
+        txtGen = (TextView)findViewById(R.id.txtGen);
+
+        String font_path ="fuentes/Crochet.otf";
+
+        Typeface TF = Typeface.createFromAsset(getAssets(),font_path);
+
+        txtNombre.setTypeface(TF);
+        txtApellido.setTypeface(TF);
+        txtEdad.setTypeface(TF);
+        txtCivil.setTypeface(TF);
+        txtGen.setTypeface(TF);
+
+
 
         String[] civil = new String[] {getResources().getString(R.string.Otro),getResources().getString(R.string.Casado),getResources().getString(R.string.Soltero),getResources().getString(R.string.Viudo)};
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, civil);
